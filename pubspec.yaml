@@ -1,7 +1,14 @@
 name: view_app_share_option
-description: "A new Flutter project."
+description: |
+  Akıllı dosya paylaşım Flutter plugini. iOS ve Android'de sistem paylaşım seçeneklerinde uygulamanızın görünmesini ve paylaşılan dosya yolunu yakalamanızı sağlar.
+  ---
+  Smart file share Flutter plugin. Lets your app appear in system share options and catch shared file path on iOS & Android.
 version: 0.0.1
-homepage:
+homepage: https://github.com/enesogulmus
+repository: https://github.com/enesogulmus/view_app_share_option
+issue_tracker: https://github.com/enesogulmus/view_app_share_option/issues
+author: Enes Oğulmuş <enesogulmus@gmail.com>
+license: Apache-2.0
 
 environment:
   sdk: ^3.8.0
