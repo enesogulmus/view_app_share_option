@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>View App Share Option</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>view_app_share_option_example</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+
+	<!-- 📄 Supported file type -->
+      <key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>PDF Document</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.adobe.pdf</string>
+				<string>public.data</string>
+				<string>public.content</string>
+				<string>public.file-url</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Word Document</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.microsoft.word.doc</string>
+				<string>org.openxmlformats.wordprocessingml.document</string>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Excel Document</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.microsoft.excel.xls</string>
+				<string>org.openxmlformats.spreadsheetml.sheet</string>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>PowerPoint Document</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.microsoft.powerpoint.ppt</string>
+				<string>org.openxmlformats.presentationml.presentation</string>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+		</dict>
+      </array>
+
+      <key>UIFileSharingEnabled</key>
+      <true/>
+
+	  <key>LSSupportsOpeningDocumentsInPlace</key>
+	  <true/>
+
+	  <key>LSApplicationQueriesSchemes</key>
+      	<array>
+      		<string>public.file-url</string>
+      		<string>public.data</string>
+      		<string>whatsapp</string>
+      		<string>whatsapp-scheme</string>
+      	</array>
+
+      <key>CFBundleURLTypes</key>
+      	<array>
+      		<dict>
+      			<key>CFBundleTypeRole</key>
+      			<string>Editor</string>
+      			<key>CFBundleURLName</key>
+      			<string>com.nsoftware.view_app_share_option_example</string>
+      			<key>CFBundleURLSchemes</key>
+      			<array>
+      				<string>printomi</string>
+      				<string>file</string>
+      				<string>public.data</string>
+      				<string>whatsapp</string>
+      			</array>
+      		</dict>
+      	</array>
+
+      <key>NSUserActivityTypes</key>
+      	<array>
+      		<string>NSUserActivityTypeBrowsingWeb</string>
+      		<string>com.apple.documentManager.documentInteraction</string>
+      	</array>
+
+      <!-- 🧠 Define file type -->
+      <key>UISupportsDocumentBrowser</key>
+      	<true/>
+      <key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>PDF Document</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.adobe.pdf</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>pdf</string>
+				</array>
+				<key>public.mime-type</key>
+				<array>
+					<string>application/pdf</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Word Document</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.microsoft.word.doc</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>doc</string>
+					<string>docx</string>
+				</array>
+				<key>public.mime-type</key>
+				<array>
+					<string>application/msword</string>
+					<string>application/vnd.openxmlformats-officedocument.wordprocessingml.document</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Excel Document</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.microsoft.excel.xls</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>xls</string>
+					<string>xlsx</string>
+				</array>
+				<key>public.mime-type</key>
+				<array>
+					<string>application/vnd.ms-excel</string>
+					<string>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>PowerPoint Document</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.microsoft.powerpoint.ppt</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>ppt</string>
+					<string>pptx</string>
+				</array>
+				<key>public.mime-type</key>
+				<array>
+					<string>application/vnd.ms-powerpoint</string>
+					<string>application/vnd.openxmlformats-officedocument.presentationml.presentation</string>
+				</array>
+			</dict>
+		</dict>
+      </array>
+</dict>
+</plist>
