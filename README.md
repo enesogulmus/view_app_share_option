@@ -220,5 +220,5 @@ Make sure the following intent-filters and permissions are present:
 Pull request ve issue açabilirsiniz. Katkılarınızı bekliyoruz! / Pull requests and issues are welcome!
 
 #### 📄 Lisans / License
-Lütfen LICENSE dosyasını doldurunuz. / Please fill in the LICENSE file.
+Bu proje [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) ile lisanslanmıştır. Tüm ayrıntılar için LICENSE dosyasına bakınız.
 
