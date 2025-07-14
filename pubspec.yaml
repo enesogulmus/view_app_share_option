@@ -7,7 +7,6 @@ version: 0.0.1
 homepage: https://github.com/enesogulmus
 repository: https://github.com/enesogulmus/view_app_share_option
 issue_tracker: https://github.com/enesogulmus/view_app_share_option/issues
-author: Enes Oğulmuş <enesogulmus@gmail.com>
 license: Apache-2.0
 
 environment:
